@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    imagename = "vinodh198leo/my-jenkins-website"
- 
+    imagename = "yaminidevik/my-jenkins-website"
+    registryCredential = 'Dockercredentials'
     dockerImage = ''
   }
   agent any
